@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--    Main Menu   -->
+    <menuitem id="menu_hide_root" name="Hide Menu"/>
+    <!--    Sub Menu without action   -->
+    <menuitem id="menu_hide_main_menu" name="Main Menu"
+              parent="menu_hide_root"/>
+
+    <!--    Sub Menu with action    -->
+    <menuitem id="menu_recurring_subscription_subscriptions_order" name="Order"
+              parent="menu_hide_main_menu"
+              action="action_hide_menus"/>
+</odoo>
