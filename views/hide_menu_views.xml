@@ -16,7 +16,7 @@
         </field>
     </record>
     <!--    create list view    -->
-    <record id="recurring_subscription_views_list" model="ir.ui.view">
+    <record id="hide_menu_views_list" model="ir.ui.view">
         <field name="name">hide.menus.views.list</field>
         <field name="model">hide.menus</field>
         <field name="arch" type="xml">

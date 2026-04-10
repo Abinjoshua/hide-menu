@@ -7,9 +7,12 @@
     'website': "http://www.cybrosys.com",
     'sequence': 1,
     'application': True,
-    'depends': ['base','purchase','contacts'],
+    'depends': ['base'],
     'auto_install': True,
     'data': [
-        'views/average_cost_views.xml',
+        'security/ir.model.access.csv',
+        'views/hide_menu_views.xml',
+        'views/res.users_views.xml',
+        'views/menu_views.xml',
     ]
 }
